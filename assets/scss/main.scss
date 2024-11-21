@@ -120,17 +120,24 @@ body {
   }
 
   #Formcontrolinput1 {
-    width:600px;
+    width:70%;
   }
 
   #Formcontrolinput2{
-    width: 600px;
+    width: 70%;
   }
 
   #Formcontroltextarea1 {
-    width:600px;
+    width:70%;
   }
-
+  
+  @media (max-width: 576px) {
+    input,
+      textarea {
+        padding: 20%;  
+      }
+    }
+  
 
 
 // style="background-color: red; color: white; border-color: black;"
