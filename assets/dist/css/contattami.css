@@ -49,4 +49,16 @@ body {
     width: 100%;
     visibility: visible;
   }
-}/*# sourceMappingURL=contattami.css.map */
+}
+
+
+.form-label {
+  display: inline-block;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=contattami.css.map */

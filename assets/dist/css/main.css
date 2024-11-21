@@ -48,6 +48,12 @@ body {
     visibility: visible;
   }
 }
+.hero-section {
+  background: url(../../assets/img/heroback.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+
 .hero-section::before {
   background-color: rgba(0, 0, 0, 0.6);
   content: "";

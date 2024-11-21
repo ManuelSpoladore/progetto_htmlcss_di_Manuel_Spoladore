@@ -58,6 +58,11 @@ body {
 
 }
 
+.hero-section {
+    background: url(../../assets/img/heroback.jpg) no-repeat center;
+    background-size: cover;
+    width:100%;
+}
 
 
 .hero-section::before {
@@ -90,6 +95,9 @@ body {
     background-color: red;
     border-color: black;
 } 
+
+
+
 
 .form-label {
     display: inline-block;
