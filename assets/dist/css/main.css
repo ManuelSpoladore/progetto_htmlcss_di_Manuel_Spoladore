@@ -49,7 +49,7 @@ body {
   }
 }
 .hero-section {
-  background: url(../../assets/img/heroback.jpg) no-repeat center;
+  background: url(/assets/img/heroback.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
 }
@@ -83,6 +83,11 @@ body {
 .btn.btn-primary.btn-lg:focus {
   background-color: red;
   border-color: black;
+}
+
+.etichette {
+  box-sizing: border-box;
+  padding-left: 16px;
 }
 
 .form-label {
