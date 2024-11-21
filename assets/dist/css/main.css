@@ -79,53 +79,58 @@ body {
   border-color: black;
 }
 
-.form-label {
-  display: inline-block;
-  background-color: rgb(255, 0, 0);
-  color: white;
-  margin-left: 87px;
-  padding: 5px 10px;
-  border-radius: 15px;
-  font-weight: bold;
+.container-form {
+  display: flex;
+  justify-content: center;
+  max-width: auto;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-#Formcontrolinput1,
-#Formcontrolinput2,
-#Formcontroltextarea1,
-label.form-control {
-  margin-left: 87px;
+.content .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
 }
 
-#fbutton {
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(50% - 20px);
+}
+
+form .input-box span.details {
   display: block;
-  margin-left: 87px;
-  margin-top: 10px;
+  max-width: 100px;
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
   background-color: red;
   color: white;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
 }
 
-#fbutton:hover {
+span.details {
+  display: block;
+  max-width: 100px;
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
   background-color: red;
+  color: white;
 }
 
-#Formcontrolinput1 {
-  width: 70%;
-}
-
-#Formcontrolinput2 {
-  width: 70%;
-}
-
-#Formcontroltextarea1 {
-  width: 70%;
-}
-
-@media (max-width: 576px) {
-  input,
-  textarea {
-    padding: 20%;
-  }
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
 }/*# sourceMappingURL=main.css.map */
