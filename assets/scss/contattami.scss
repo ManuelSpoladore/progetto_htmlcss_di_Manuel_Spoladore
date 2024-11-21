@@ -64,8 +64,7 @@ body{
     font-weight: bold;
   }
 
-  
-#Formcontrolinput1,
+  #Formcontrolinput1,
   #Formcontrolinput2,
   #Formcontroltextarea1,
   label.form-control {
@@ -87,15 +86,21 @@ body{
     background-color: red;
   }
 
-
   #Formcontrolinput1 {
-    width:600px;
+    width:70%;
   }
 
   #Formcontrolinput2{
-    width: 600px;
+    width: 70%;
   }
 
   #Formcontroltextarea1 {
-    width:600px;
+    width:70%;
   }
+  
+  @media (max-width: 576px) {
+    input,
+      textarea {
+        padding: 20%;  
+      }
+    }
