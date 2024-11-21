@@ -79,16 +79,11 @@ body {
   border-color: black;
 }
 
-.etichette {
-  box-sizing: border-box;
-  padding-left: 16px;
-}
-
 .form-label {
   display: inline-block;
   background-color: rgb(255, 0, 0);
   color: white;
-  margin-left: 50px;
+  margin-left: 87px;
   padding: 5px 10px;
   border-radius: 15px;
   font-weight: bold;
@@ -97,18 +92,33 @@ body {
 #Formcontrolinput1,
 #Formcontrolinput2,
 #Formcontroltextarea1,
-.form-control {
+label.form-control {
   margin-left: 87px;
 }
 
-button[type=submit] {
+#fbutton {
   display: block;
-  margin-left: 50px;
+  margin-left: 87px;
   margin-top: 10px;
   background-color: red;
   color: white;
-  border: 1px solid black;
+  border: none;
   padding: 10px 20px;
-  border-radius: 5px;
   text-align: center;
+}
+
+#fbutton:hover {
+  background-color: red;
+}
+
+#Formcontrolinput1 {
+  width: 600px;
+}
+
+#Formcontrolinput2 {
+  width: 600px;
+}
+
+#Formcontroltextarea1 {
+  width: 600px;
 }/*# sourceMappingURL=main.css.map */

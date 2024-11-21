@@ -52,7 +52,50 @@ body{
     width:100%;
     visibility: visible ;
 }
-
-
 }
 
+.form-label {
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    margin-left: 87px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
+  
+#Formcontrolinput1,
+  #Formcontrolinput2,
+  #Formcontroltextarea1,
+  label.form-control {
+    margin-left:87px;
+  }
+   
+  #fbutton {
+    display: block; 
+    margin-left: 87px; 
+    margin-top: 10px; 
+    background-color: red;
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  #fbutton:hover {
+    background-color: red;
+  }
+
+
+  #Formcontrolinput1 {
+    width:600px;
+  }
+
+  #Formcontrolinput2{
+    width: 600px;
+  }
+
+  #Formcontroltextarea1 {
+    width:600px;
+  }
