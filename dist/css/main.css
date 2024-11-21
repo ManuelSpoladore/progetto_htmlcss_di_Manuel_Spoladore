@@ -48,12 +48,6 @@ body {
     visibility: visible;
   }
 }
-.hero-section {
-  background: url(../../assets/img/heroback.jpg) no-repeat center;
-  background-size: cover;
-  width: 100%;
-}
-
 .hero-section::before {
   background-color: rgba(0, 0, 0, 0.6);
   content: "";
@@ -83,4 +77,13 @@ body {
 .btn.btn-primary.btn-lg:focus {
   background-color: red;
   border-color: black;
+}
+
+.form-label {
+  display: inline-block;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
