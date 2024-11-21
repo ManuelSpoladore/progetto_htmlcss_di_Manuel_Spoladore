@@ -58,12 +58,6 @@ body {
 
 }
 
-.hero-section {
-    background: url(/assets/img/heroback.jpg) no-repeat center;
-    background-size: cover;
-    width:100%;
-}
-
 
 .hero-section::before {
     background-color: rgba(0,0,0,0.6);
@@ -105,9 +99,35 @@ body {
     display: inline-block;
     background-color: rgb(255, 0, 0);
     color: white;
+    margin-left:50px;
     padding: 5px 10px;
     border-radius: 15px;
     font-weight: bold;
   }
-  
+
+  #Formcontrolinput1,
+  #Formcontrolinput2,
+  #Formcontroltextarea1,
+  .form-control {
+    margin-left:87px;
+  }
+   
+  button[type="submit"] {
+    display: block; 
+    margin-left: 50px; 
+    margin-top: 10px; 
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+//   #bottoneform {
+//     margin-left:50px;
+//   }
+
+
+// style="background-color: red; color: white; border-color: black;"
 // Aggiungere nel form le parole cerchiate di rosso, sistemare la lunghezza
