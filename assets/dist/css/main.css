@@ -79,7 +79,7 @@ body {
   border-color: black;
 }
 
-.container-form {
+.contenitore {
   display: flex;
   justify-content: center;
   max-width: auto;
