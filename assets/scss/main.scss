@@ -97,10 +97,8 @@ body {
     justify-content: center;
     max-width: auto;
     width: 100%;
-    background-color: #fff;
+    background-color:rgb(246, 246, 246);
     padding: 25px 30px;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
   }
 
   .content .user-details {
@@ -151,99 +149,28 @@ span.details {
     border: 1px solid #ccc;
     border-bottom-width: 2px;
   }
-//   .form-control 
-  
-// Siamo arriati che dobbiamo allargare il textarea
-
-// .titoloform {
-//     margin-top: 20px ;
-//     display: flex;
-//     justify-content: center;
-// }
-
-// .container-form {
-//     max-width: 700px;
-//     width: 100%;
-//     background-color: #fff;
-//     padding: 25px 30px;
-//     border-radius: 5px;
-//     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-//   }
 
 
+  #Formcontroltextarea1 {
+    display:block;
+    width: 1000px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+  }
 
-// .pform {
-//     display: flex;
-//     justify-content: center;
+  #fbutton {  
+    background-color: red;
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    text-align: center;
+  }
 
-// }
+  #fbutton:hover {
+    background-color: red;
+  }
 
-// label.form-label {
-//     display: block; 
-//     margin-bottom: 0.5rem; 
-//   }
-  
-//   input.form-control,
-//   textarea.form-control {
-//     margin-bottom: 1rem;
-//   }
-
-
-
-
-
-// .form-label {
-//     display: inline-block;
-//     background-color: rgb(255, 0, 0);
-//     color: white;
-//     margin-left: 87px;
-//     padding: 5px 10px;
-//     border-radius: 15px;
-//     font-weight: bold;
-//   }
-
-//   #Formcontrolinput1,
-//   #Formcontrolinput2,
-//   #Formcontroltextarea1,
-//   label.form-control {
-//     margin-left:87px;
-//   }
-   
-//   #fbutton {
-//     display: block; 
-//     margin-left: 87px; 
-//     margin-top: 10px; 
-//     background-color: red;
-//     color: white;
-//     border:none;
-//     padding: 10px 20px;
-//     text-align: center;
-//   }
-
-//   #fbutton:hover {
-//     background-color: red;
-//   }
-
-//   #Formcontrolinput1 {
-//     width:70%;
-//   }
-
-//   #Formcontrolinput2{
-//     width: 70%;
-//   }
-
-//   #Formcontroltextarea1 {
-//     width:70%;
-//   }
-  
-//   @media (max-width: 576px) {
-//     input,
-//       textarea {
-//         padding: 20%;  
-//       }
-//     }
-  
-
-
-// style="background-color: red; color: white; border-color: black;"
-// Aggiungere nel form le parole cerchiate di rosso, sistemare la lunghezza
