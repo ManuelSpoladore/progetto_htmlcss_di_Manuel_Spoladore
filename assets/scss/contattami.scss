@@ -1,5 +1,4 @@
 body{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -54,27 +53,162 @@ body{
 }
 }
 
-.form-label {
-    display: inline-block;
-    background-color: rgb(255, 0, 0);
-    color: white;
-    margin-left: 87px;
-    padding: 5px 10px;
-    border-radius: 15px;
-    font-weight: bold;
+
+.contenitore {
+  display:flex;
+  justify-content: center;
+  max-width: auto;
+  width: 100%;
+  height: 550px;
+  background-color:rgb(246, 246, 246);
+  padding: 25px 30px;
+}
+
+.content .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 20px 12px 0;
+}
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+  
+
+}
+form .input-box span.details {
+  display: block;
+  max-width:100px;
+  padding:5px;
+  border-radius: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  background-color: red;
+  color:white;
+
+}
+
+  
+span.details {
+  display: block;
+  max-width:100px;
+  padding:5px;
+  border-radius: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  background-color: red;
+  color:white;
+
+}
+  
+
+.user-details .input-box input {
+  height: 45px;
+  width: 300px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  padding: 10px; /* Per allineare il padding */
+}
+
+
+#Formcontroltextarea1 {
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  padding: 10px;
+}
+
+
+#fbutton {  
+  background-color: red;
+  color: white;
+  border:none;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#fbutton:hover {
+  background-color: red;
+}
+
+@media (max-width: 576px) {
+
+  .contenitore {
+    display:flex;
+    justify-content: flex-start;
+    max-width:576px;
+    width: auto;
+    background-color:rgb(246, 246, 246);
+    padding: 25px 30px;
   }
 
-  #Formcontrolinput1,
-  #Formcontrolinput2,
-  #Formcontroltextarea1,
-  label.form-control {
-    margin-left:87px;
+  .content .user-details {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 0 16px;
   }
-   
-  #fbutton {
-    display: block; 
-    margin-left: 87px; 
-    margin-top: 10px; 
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+    
+
+  }
+  form .input-box span.details {
+    display: block;
+    max-width:100px;
+    padding:5px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    background-color: red;
+    color:white;
+
+}
+
+    
+span.details {
+    display: block;
+    width:150px;
+    padding:5px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    background-color: red;
+    color:white;
+
+}
+    
+  
+  .user-details .input-box input {
+    height: 45px;
+    width: 300px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+  }
+
+
+  #Formcontroltextarea1 {
+    display:block;
+    width: 300px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+  }
+
+  #fbutton {  
     background-color: red;
     color: white;
     border:none;
@@ -86,21 +220,5 @@ body{
     background-color: red;
   }
 
-  #Formcontrolinput1 {
-    width:70%;
-  }
-
-  #Formcontrolinput2{
-    width: 70%;
-  }
-
-  #Formcontroltextarea1 {
-    width:70%;
-  }
   
-  @media (max-width: 576px) {
-    input,
-      textarea {
-        padding: 20%;  
-      }
-    }
+  }
