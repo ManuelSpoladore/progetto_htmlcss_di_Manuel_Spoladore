@@ -53,20 +53,20 @@
     <h1 class="text-center" id="titoloform">Contattami</h1>
     <div class="contenitore">
       <div class="content">
-        <form action="#">
+        <form action="#" aria-labelledby="form-title">
           <div class="user-details">
             <div class="input-box">
               <span class="details">Nome</span>
-              <input type="text" placeholder="Manuel" required>
+              <input type="text" placeholder="Manuel" required required aria-required="true" aria-describedby="name-help">
             </div>
             <div class="input-box">
               <span class="details">Email</span>
-              <input type="email" placeholder="esempio@mail.com" required>
+              <input type="email" placeholder="esempio@mail.com" required aria-required="true" aria-describedby="email-help">
             </div>
           </div>
             <div class="mexform">
               <span class="details" >Messaggio</span>
-              <textarea class="form-control" id="Formcontroltextarea1" rows="3" placeholder="Ciao..."></textarea>
+              <textarea class="form-control" id="Formcontroltextarea1" rows="3" placeholder="Ciao..." aria-describedby="message-help"></textarea>
               </div>
               <div class="col-12 pt-2">
               <button class="btn btn-primary " id="fbutton" type="submit" aria-label="Tasto per inviare le informazioni di contatto">Contattami</button>
