@@ -49,6 +49,10 @@ body {
     visibility: visible;
   }
 }
+#titoloform {
+  margin-top: 5px;
+}
+
 .contenitore {
   display: flex;
   justify-content: center;
@@ -91,6 +95,7 @@ span.details {
   margin-bottom: 5px;
   background-color: red;
   color: white;
+  text-align: center;
 }
 
 .user-details .input-box input {
@@ -163,6 +168,7 @@ span.details {
     margin-bottom: 5px;
     background-color: red;
     color: white;
+    text-align: center;
   }
   .user-details .input-box input {
     height: 45px;

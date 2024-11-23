@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 
 body {
     margin: 0;
@@ -86,11 +91,6 @@ body {
     border-color: black;
 } 
 
-// #titolo-form {
-//     box-sizing: border-box;
-//     display: flex;
-//     justify-content: center;
-// }
 
 .contenitore {
     display:flex;
@@ -135,6 +135,7 @@ span.details {
     margin-bottom: 5px;
     background-color: red;
     color:white;
+    text-align: center;
 
 }
     
@@ -219,6 +220,7 @@ span.details {
       margin-bottom: 5px;
       background-color: red;
       color:white;
+      text-align: center;
   
   }
       
